@@ -1,0 +1,69 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "koreacentral"
+        },
+        "networkInterfaceName": {
+            "value": "hirayama01668"
+        },
+        "networkSecurityGroupName": {
+            "value": "Hirayama01-nsg"
+        },
+        "networkSecurityGroupRules": {
+            "value": []
+        },
+        "virtualNetworkName": {
+            "value": "ToyotaSystems-vnet"
+        },
+        "addressPrefix": {
+            "value": "10.0.1.0/24"
+        },
+        "subnetName": {
+            "value": "default"
+        },
+        "subnetPrefix": {
+            "value": "10.0.1.0/24"
+        },
+        "publicIpAddressName": {
+            "value": "Hirayama01-ip"
+        },
+        "publicIpAddressType": {
+            "value": "Dynamic"
+        },
+        "publicIpAddressSku": {
+            "value": "Basic"
+        },
+        "virtualMachineName": {
+            "value": "Hirayama01"
+        },
+        "virtualMachineRG": {
+            "value": "ToyotaSystems"
+        },
+        "osDiskType": {
+            "value": "Premium_LRS"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_B1ms"
+        },
+        "adminUsername": {
+            "value": "hirayamaadmin"
+        },
+        "adminPassword": {
+            "value": null
+        },
+        "diagnosticsStorageAccountName": {
+            "value": "oyotaystemsdiag657"
+        },
+        "diagnosticsStorageAccountId": {
+            "value": "Microsoft.Storage/storageAccounts/oyotaystemsdiag657"
+        },
+        "diagnosticsStorageAccountType": {
+            "value": "Standard_LRS"
+        },
+        "diagnosticsStorageAccountKind": {
+            "value": "Storage"
+        }
+    }
+}
